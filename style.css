@@ -82,6 +82,63 @@ main section .bottom .text button #bla {
   border-radius: 100%;
   border: 1px solid rgb(87, 87, 87);
 }
+main .view2 {
+  color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+main .view2 .smallleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+main .view2 .smallleft #left h4 {
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+main .view2 .smallleft #left h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+main .view2 .smallleft #right h4 {
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+main .view2 .smallleft #right h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+main .view2 .smallright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+main .view2 .smallright #left2 h4 {
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+main .view2 .smallright #left2 h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+main .view2 .smallright #right2 h4 {
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+main .view2 .smallright #right2 h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
 
 @media (min-width: 600px) {
   main section {
@@ -114,5 +171,56 @@ main section .bottom .text button #bla {
   }
   main section .bottom .text button h4 {
     font-weight: 200;
+  }
+  main .view2 .smallleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px;
+  }
+  main .view2 .smallleft #left h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+  }
+  main .view2 .smallleft #left h3 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  main .view2 .smallleft #right h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+  }
+  main .view2 .smallleft #right h3 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  main .view2 .smallright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+  }
+  main .view2 .smallright #left2 h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    text-align: center;
+    font-weight: 100;
+  }
+  main .view2 .smallright #left2 h3 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  main .view2 .smallright #right2 h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+  }
+  main .view2 .smallright #right2 h3 {
+    font-size: 4rem;
+    font-weight: 400;
   }
 }/*# sourceMappingURL=style.css.map */
