@@ -51,8 +51,6 @@ p{
     font-size: 1rem;
 }
 
-.text{
-    width: 100%;
 
 
     h1{
@@ -196,10 +194,12 @@ gap: 30px;
     background-color: rgb(31, 31, 31);
     padding: 20px;
     border-radius: 10px;
-    gap: 80px;
+    gap: 50px;
+
+   
 
 p{
-    font-weight:500;
+    font-weight:100;
 }
 
 .text1{
@@ -209,19 +209,19 @@ h1{
           font-weight: 400;
         font-size: 2.5rem;
         line-height: 45px;
+        
 }
 
 .split{
     width: 100%;
 
 p{
-   
-       margin-top: 15px;
+    
         line-height: 30px;
         text-align: left;
         color: rgb(218, 218, 214);
-        font-size: 1.3rem;
-        font-weight: 200;
+        font-size: 1.5rem;
+        font-weight:100;
 }
 
     p:nth-child(2){
@@ -246,7 +246,7 @@ h1{
 
 
 
-}
+
 
 @media (min-width:600px){
 main{
@@ -362,14 +362,78 @@ gap: 200px;
 }
 }
 
-
 .view3{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+.bottom1{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+  padding: 30px;
+    border-radius: 10px;
+   
+
+p{
+    font-weight:500;
+}
     
+h1{
+          font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 45px;
+}
+
+.split{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+p{
+   
+    
+        line-height: 30px;
+        text-align: left;
+        color: rgb(218, 218, 214);
+        font-size: 1rem;
+        font-weight: 300;
+}
+
+    p:nth-child(2){
+  line-height: 30px;
+        text-align: left;
+        color: rgb(218, 218, 214);
+        font-size: 1rem;
+        font-weight: 300;
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 }
 
 
+
 }
+
 }
+
+
+
+
+}
+
 
 
 
