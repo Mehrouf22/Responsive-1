@@ -139,6 +139,51 @@ main .view2 .smallright #right2 h3 {
   font-size: 2rem;
   font-weight: 400;
 }
+main .view3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .view3 .bottom1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: rgb(31, 31, 31);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 80px;
+}
+main .view3 .bottom1 p {
+  font-weight: 500;
+}
+main .view3 .bottom1 .text1 {
+  width: 100%;
+}
+main .view3 .bottom1 .text1 h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+main .view3 .bottom1 .text1 .split {
+  width: 100%;
+}
+main .view3 .bottom1 .text1 .split p {
+  margin-top: 15px;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(218, 218, 214);
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+main .view3 .bottom1 .text1 .split p:nth-child(2) {
+  color: red;
+  display: none;
+}
+main .view3 .bottom1 h1 {
+  font-weight: 400;
+}
 
 @media (min-width: 600px) {
   main section {
