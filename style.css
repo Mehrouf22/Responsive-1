@@ -138,51 +138,6 @@ main section .bottom button #bla {
   font-weight: 400;
 }
 
-.view3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.view3 .bottom1 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  background-color: rgb(31, 31, 31);
-  padding: 20px;
-  border-radius: 10px;
-  gap: 50px;
-}
-.view3 .bottom1 p {
-  font-weight: 100;
-}
-.view3 .bottom1 .text1 {
-  width: 100%;
-}
-.view3 .bottom1 .text1 h1 {
-  font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 45px;
-}
-.view3 .bottom1 .text1 .split {
-  width: 100%;
-}
-.view3 .bottom1 .text1 .split p {
-  line-height: 30px;
-  text-align: left;
-  color: rgb(218, 218, 214);
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-.view3 .bottom1 .text1 .split p:nth-child(2) {
-  color: red;
-  display: none;
-}
-.view3 .bottom1 h1 {
-  font-weight: 400;
-}
-
 @media (min-width: 600px) {
   main section {
     flex-direction: row;
@@ -265,53 +220,5 @@ main section .bottom button #bla {
   main .view2 .smallright #right2 h3 {
     font-size: 4rem;
     font-weight: 400;
-  }
-  main .view3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  main .view3 .bottom1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    background-color: rgb(31, 31, 31);
-    padding: 30px;
-    border-radius: 10px;
-  }
-  main .view3 .bottom1 p {
-    font-weight: 500;
-  }
-  main .view3 .bottom1 h1 {
-    font-weight: 400;
-    font-size: 2.5rem;
-    line-height: 45px;
-  }
-  main .view3 .bottom1 .split {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  main .view3 .bottom1 .split p {
-    line-height: 30px;
-    text-align: left;
-    color: rgb(218, 218, 214);
-    font-size: 1rem;
-    font-weight: 300;
-  }
-  main .view3 .bottom1 .split p:nth-child(2) {
-    line-height: 30px;
-    text-align: left;
-    color: rgb(218, 218, 214);
-    font-size: 1rem;
-    font-weight: 300;
-    display: contents;
-    justify-content: center;
-    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
